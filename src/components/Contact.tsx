@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Facebook, name: 'Facebook', href: 'https://www.facebook.com/share/1NDfWAEj9U/https://www.facebook.com/share/1NDfWAEj9U/', color: 'hover:text-blue-600' },
+    { icon: Facebook, name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61573934072925&mibextid=ZbWKwL', color: 'hover:text-blue-600' },
     { icon: Instagram, name: 'Instagram', href: '#', color: 'hover:text-pink-600' },
     { icon: MessageCircle, name: 'WhatsApp', href: 'https://whatsapp.com/channel/0029Vb2WAHXGk1FysEy4j92M', color: 'hover:text-green-600' },
   ];
