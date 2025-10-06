@@ -37,7 +37,7 @@ const Activities = () => {
 
   return (
     <section id="activities" className="py-20" ref={ref}>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8251279282627098" crossorigin="anonymous"></script>
+      
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

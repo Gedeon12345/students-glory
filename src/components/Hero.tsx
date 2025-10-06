@@ -81,7 +81,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8251279282627098" crossorigin="anonymous"></script>
+      
     </section>
   );
 };
