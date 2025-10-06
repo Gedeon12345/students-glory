@@ -80,6 +80,8 @@ const Hero = () => {
           <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary rounded-full blur-3xl opacity-20" />
         </motion.div>
       </div>
+
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8251279282627098" crossorigin="anonymous"></script>
     </section>
   );
 };
