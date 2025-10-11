@@ -113,3 +113,20 @@ All colors MUST be HSL.
     scroll-behavior: smooth;
   }
 }
+
+/* Petites personnalisations pour garder l'identité */
+:root{
+  --primary: #0b63a6; /* ajuste selon ton thème */
+  --accent: #f59e0b;
+  }
+  
+  
+  body{
+  background-color: #fff;
+  }
+  
+  
+  .header-logo{
+  font-weight: 700;
+  color: var(--primary);
+  }

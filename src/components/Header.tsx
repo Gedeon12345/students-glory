@@ -21,6 +21,7 @@ const Header = () => {
     { name: 'Activités', href: '#activities' },
     { name: 'Témoignages', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
+    { name: 'privacy-policy', href: '/privacy-policy' },
   ];
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -43,7 +44,7 @@ const Header = () => {
           <div className="flex items-center justify-between h-20">
             <a href="#home" className="text-2xl font-bold text-primary flex items-center justify-between space-x-3" onClick={(e) => scrollToSection(e, '#home')}>
               <img className='w-10 h-10 rounded-xl mr-2' src={logo} alt="" />
-              Students Glory
+              Student"s Glory
             </a>
 
             {/* Desktop Navigation */}
