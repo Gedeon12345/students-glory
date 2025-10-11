@@ -6,7 +6,7 @@ const Footer = () => {
           "Cherchez premièrement le royaume et la justice de Dieu, et toutes ces choses vous seront données par-dessus."
         </p>
         <p className="text-sm opacity-90 mb-4">— Matthieu 6:33</p>
-        <p className="text-sm opacity-75">© 2025 Students Glory – Tous droits réservés.</p>
+        <p className="text-sm opacity-75">© 2025 Student"s Glory – Tous droits réservés.</p>
       </div>
     </footer>
   );
