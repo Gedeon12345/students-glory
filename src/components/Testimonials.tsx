@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 import AddTestimonialModal from './AddTestimonialModal';
+import axiosInstance from "../utils/axiosInstance"
 
 interface Testimonial {
   _id: string;
@@ -45,14 +46,14 @@ const Testimonials = () => {
   const navigate = useNavigate();
   
   useEffect(() => {
-    axios.get("http://localhost:5000/api/testimonials")
+    axios.get("https://studentsglory-backend.onrender.com/api/testimonials")
       .then(res => setTestimonials(res.data.slice(0, 3))) // 3 plus récents
       .catch(err => console.error(err));
   }, []);
 
   const handleAddSuccess = async () => {
     setShowModal(false);
-    const res = await axios.get("http://localhost:5000/api/testimonials");
+    const res = await axios.get("https://studentsglory-backend.onrender.com/api/testimonials");
     setTestimonials(res.data.slice(0, 3));
   };
 

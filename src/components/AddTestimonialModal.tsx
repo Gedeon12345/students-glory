@@ -20,7 +20,7 @@ export default function AddTestimonialModal({ onClose, onSuccess }: Props) {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post("http://localhost:5000/api/testimonials", form);
+      await axios.post("https://studentsglory-backend.onrender.com/api/testimonials", form);
       setLoading(false);
       onSuccess(); // actualise et ferme
     } catch (error) {

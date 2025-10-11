@@ -18,7 +18,7 @@ export default function AllTestimonials() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/testimonials")
+      .get("https://studentsglory-backend.onrender.com/api/testimonials")
       .then((res) => setTestimonials(res.data))
       .catch((err) => console.error(err));
   }, []);
