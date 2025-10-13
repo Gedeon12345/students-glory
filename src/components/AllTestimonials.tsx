@@ -38,7 +38,7 @@ export default function AllTestimonials() {
         ) : (
             <section className="py-10 mt-20 px-4 bg-gray-50 min-h-screen">
                 <h2 className="text-3xl font-bold text-center mb-8">Tous les témoignages</h2>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 gap-6">
                     {testimonials.map((t) => (
                     <div
                         key={t._id}
