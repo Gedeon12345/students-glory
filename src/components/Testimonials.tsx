@@ -90,7 +90,7 @@ const Testimonials = () => {
                 <Card className="h-full hover:shadow-lg transition-shadow">
                   <CardContent className="p-6">
                     <Quote className="w-10 h-10 text-accent mb-4" />
-                    <p className="text-muted-foreground mb-6 italic max-w-[100ch] truncate">{t.message}</p>
+                    <p className="text-muted-foreground mb-6 italic max-w-[35ch] truncate">{t.message}</p>
                     <div className="border-t border-border pt-4">
                       <p className="font-semibold">{t.nom}</p>
                       <div className='flex justify-between space-x-3'>
